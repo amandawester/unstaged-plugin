@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "unstaged": {
+      "type": "http",
+      "url": "https://unstaged.se/api/mcp"
+    }
+  }
+}

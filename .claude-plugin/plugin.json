@@ -1,0 +1,11 @@
+{
+  "name": "unstaged",
+  "displayName": "UNSTAGED",
+  "version": "1.0.0",
+  "description": "Plan your wedding with Claude, from your own UNSTAGED wedding: read a vendor's quote into the budget, add the guest list, write a design brief from your moodboards, and see what to do this week.",
+  "author": { "name": "WEST DESIGN LAB AB", "url": "https://unstaged.se" },
+  "homepage": "https://unstaged.se/connect",
+  "repository": "https://github.com/amandawester/unstaged-plugin",
+  "license": "MIT",
+  "keywords": ["wedding", "wedding-planning", "budget", "guest-list", "moodboard", "design"]
+}
