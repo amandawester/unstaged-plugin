@@ -18,6 +18,5 @@
     "moodboard",
     "design"
   ],
-  "privacyPolicyUrl": "https://unstaged.se/privacy",
-  "icon": "./.claude-plugin/icon.png"
+  "privacyPolicyUrl": "https://unstaged.se/privacy"
 }
