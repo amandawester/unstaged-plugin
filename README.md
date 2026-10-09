@@ -10,7 +10,7 @@ Claude can read every part of your wedding in UNSTAGED, and add to or update mos
 | --- | --- | --- |
 | Budget | Every category and row, what is paid and left, scheduled payments, who pays | Adds quotes and costs with what they cover; keeps the quote itself on the row (the PDF, or the email saved as a page); changes amounts, notes, groups; marks a quote as decided |
 | Guests | The list with RSVPs, groups, sides, meals, dietary notes, tables; Guest Ideas; the seating chart | Adds up to 100 guests at a time; updates RSVPs, meals, dietary notes, groups |
-| Vendors | Everyone you are considering or have booked, with contacts and notes | Adds vendors; updates booking status, contacts and notes |
+| Vendors | Everyone you are considering or have booked, with contacts and notes | Adds vendors; updates booking status, contacts and notes; saves contracts, quotes and other documents on the vendor's card |
 | Planning | To-dos, The Guide for this week, the Roadmap, decisions and what each of you answered, recent activity | Adds and updates to-dos; adds decisions; records your own answer |
 | The day | Timeline, detailed schedule, day-of team, shot list | |
 | Design | Creative direction, palettes, the images in your moodboards, Decor ideas with their images, the Wedding Deck | Adds Decor ideas and what is left to do or buy for them; saves images from a link into a moodboard or Decor idea; gives you a link to upload your own photos |
