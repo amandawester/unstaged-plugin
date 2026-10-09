@@ -32,3 +32,5 @@ When the couple chooses, call `update_budget_row` with `countedInBudget: true` o
 ## Limits
 
 Nothing can be deleted from here. Payments already recorded are never changed, and an amount cannot be set below what has been paid. If the user asks for either, say so and point them to the budget in UNSTAGED.
+
+The quote file itself is not stored from here. You record what it says; to keep the PDF on the row, the couple attaches it in UNSTAGED.

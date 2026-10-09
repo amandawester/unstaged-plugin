@@ -4,12 +4,26 @@ UNSTAGED is a wedding planner for couples who care how their day looks and feels
 
 ## What it does
 
-The plugin pairs the UNSTAGED connector with four skills that know how a wedding is planned in UNSTAGED:
+Claude can read every part of your wedding in UNSTAGED, and add to or update most of it:
 
-- **Quote to budget.** Paste the email or attach the PDF from a florist, caterer or photographer. Claude reads the amount and what it covers, and adds it to the right budget category as a quote you can compare with the others.
-- **Guest list.** Hand over names in any shape (a note, a spreadsheet, a message from your mother) and they land on the guest list, grouped and on the right side, without duplicates. RSVPs and dietary notes are updated the same way.
-- **Design brief.** Claude looks at the actual images in your moodboards, your palette and your Decor ideas, and writes a brief a florist or stylist can work from.
-- **This week.** What to do now, what is due, and what is left to pay, from The Guide, your to-dos and your budget.
+| Area | Claude reads | Claude adds and changes |
+| --- | --- | --- |
+| Budget | Every category and row, what is paid and left, scheduled payments, who pays | Adds quotes and costs with what they cover; changes amounts, notes, groups; marks a quote as decided |
+| Guests | The list with RSVPs, groups, sides, meals, dietary notes, tables; Guest Ideas; the seating chart | Adds up to 100 guests at a time; updates RSVPs, meals, dietary notes, groups |
+| Vendors | Everyone you are considering or have booked, with contacts and notes | Adds vendors; updates booking status, contacts and notes |
+| Planning | To-dos, The Guide for this week, the Roadmap, decisions and what each of you answered, recent activity | Adds and updates to-dos; adds decisions; records your own answer |
+| The day | Timeline, detailed schedule, day-of team, shot list | |
+| Design | Creative direction, palettes, the images in your moodboards, Decor ideas with their images, the Wedding Deck | Adds Decor ideas and what is left to do or buy for them; saves images from a link into a moodboard or Decor idea; gives you a link to upload your own photos |
+
+Five skills teach Claude how these fit together for the jobs couples do most:
+
+- **Quote to budget.** Paste the email or attach the PDF from a florist, caterer or photographer. Claude reads the amount and what it covers, and adds it to the right category as a quote you can compare with the others.
+- **Guest list.** Hand over names in any shape and they land on the guest list, grouped and on the right side, without duplicates. RSVPs and dietary notes are updated the same way.
+- **Vendors.** Keep track of who you are considering, who has replied and who is booked, and draft the enquiry or the follow-up.
+- **Design brief.** Claude looks at the actual images in your moodboards, your palette and your Decor ideas, and writes a brief a florist or stylist can work from, or turns an idea into a Decor idea with its own to-do list.
+- **This week.** What to do now, what is due, what is left to pay, and what the two of you still have to decide.
+
+You are not limited to these. Ask for anything in the table in your own words.
 
 Everything Claude adds appears at once in the UNSTAGED iOS app and on the web.
 
