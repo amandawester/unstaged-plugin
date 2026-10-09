@@ -24,4 +24,4 @@ Draft the message for the couple to send; nothing is sent from here. Take the fa
 
 ## Limits
 
-Vendors cannot be removed from here; that is done in UNSTAGED. Files such as contracts and quote PDFs are attached in UNSTAGED itself; from here you record the amounts and terms they contain.
+Vendors cannot be removed from here; that is done in UNSTAGED. Quote files are kept on the budget row with `save_quote_file`. Contracts are attached in UNSTAGED itself.

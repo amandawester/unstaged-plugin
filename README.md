@@ -8,7 +8,7 @@ Claude can read every part of your wedding in UNSTAGED, and add to or update mos
 
 | Area | Claude reads | Claude adds and changes |
 | --- | --- | --- |
-| Budget | Every category and row, what is paid and left, scheduled payments, who pays | Adds quotes and costs with what they cover; changes amounts, notes, groups; marks a quote as decided |
+| Budget | Every category and row, what is paid and left, scheduled payments, who pays | Adds quotes and costs with what they cover; keeps the quote itself on the row (the PDF, or the email saved as a page); changes amounts, notes, groups; marks a quote as decided |
 | Guests | The list with RSVPs, groups, sides, meals, dietary notes, tables; Guest Ideas; the seating chart | Adds up to 100 guests at a time; updates RSVPs, meals, dietary notes, groups |
 | Vendors | Everyone you are considering or have booked, with contacts and notes | Adds vendors; updates booking status, contacts and notes |
 | Planning | To-dos, The Guide for this week, the Roadmap, decisions and what each of you answered, recent activity | Adds and updates to-dos; adds decisions; records your own answer |
@@ -17,7 +17,7 @@ Claude can read every part of your wedding in UNSTAGED, and add to or update mos
 
 Five skills teach Claude how these fit together for the jobs couples do most:
 
-- **Quote to budget.** Paste the email or attach the PDF from a florist, caterer or photographer. Claude reads the amount and what it covers, and adds it to the right category as a quote you can compare with the others.
+- **Quote to budget.** Paste the email or attach the PDF from a florist, caterer or photographer. Claude reads the amount and what it covers, and adds it to the right category as a quote you can compare with the others, with the quote itself saved on the row.
 - **Guest list.** Hand over names in any shape and they land on the guest list, grouped and on the right side, without duplicates. RSVPs and dietary notes are updated the same way.
 - **Vendors.** Keep track of who you are considering, who has replied and who is booked, and draft the enquiry or the follow-up.
 - **Design brief.** Claude looks at the actual images in your moodboards, your palette and your Decor ideas, and writes a brief a florist or stylist can work from, or turns an idea into a Decor idea with its own to-do list.
@@ -44,7 +44,7 @@ Claude can read your planning and add to or update it. It can never delete anyth
 
 The plugin itself contains only text: these instructions and the address of the UNSTAGED connector. It runs no code and stores nothing.
 
-When you use it, Claude sends requests to your UNSTAGED account at `unstaged.se` and receives the parts of your wedding you have allowed: budget, to-dos, vendors, guests, schedule, decisions, moodboard and Decor images, and creative direction. What you ask Claude to add (a budget row, guests, a to-do, an image from a link you give) is sent to the same place. Nothing is sent anywhere else. See the [privacy policy](https://unstaged.se/privacy).
+When you use it, Claude sends requests to your UNSTAGED account at `unstaged.se` and receives the parts of your wedding you have allowed: budget, to-dos, vendors, guests, schedule, decisions, moodboard and Decor images, and creative direction. What you ask Claude to add (a budget row, guests, a to-do, an image or a quote file from a link you give, the text of a quote) is sent to the same place. Nothing is sent anywhere else. See the [privacy policy](https://unstaged.se/privacy).
 
 ## Support
 

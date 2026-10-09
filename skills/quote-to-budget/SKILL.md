@@ -19,7 +19,12 @@ The budget in UNSTAGED is made of categories, and each category holds rows. A ro
    - `note`: what is excluded, the deposit and its due date, or how long the quote is valid
    - `vendorId`: when the vendor is in `list_vendors`
    Leave `countedInBudget` out unless the couple has said they are going with this vendor. A quote that is counted by mistake makes the budget look spent.
-7. Reply in two or three lines: where the row went, the amount, what it covers, and that it is saved as a quote. Mention anything the quote leaves out that the other quotes in the category include.
+7. Keep the quote itself on the row with `save_quote_file`, using the row id that `add_budget_row` returned:
+   - The quote came as an email or a message: pass its full `text` exactly as written, with `from`, `subject` and `date`. It is saved as a PDF page on the row. Do not summarise or tidy it; this is the couple's record of what the vendor promised.
+   - There is a direct link to the PDF or image: pass `url`.
+   - The user attached a PDF or a photo to this chat: you cannot pass that file along. Call `save_quote_file` with only the row id and give them the link it returns, unchanged; they drop the file there. It is valid for 20 minutes.
+   A row holds five quote files, so a revised quote from the same vendor goes on the same row.
+8. Reply in two or three lines: where the row went, the amount, what it covers, and that it is saved as a quote. Mention anything the quote leaves out that the other quotes in the category include.
 
 ## Compare quotes
 
@@ -32,5 +37,3 @@ When the couple chooses, call `update_budget_row` with `countedInBudget: true` o
 ## Limits
 
 Nothing can be deleted from here. Payments already recorded are never changed, and an amount cannot be set below what has been paid. If the user asks for either, say so and point them to the budget in UNSTAGED.
-
-The quote file itself is not stored from here. You record what it says; to keep the PDF on the row, the couple attaches it in UNSTAGED.
